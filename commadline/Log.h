@@ -8,6 +8,11 @@
 
 #import <Foundation/Foundation.h>
 
+// file Log.h
+
 @interface Log : NSObject
 
+- (void)redirectNSLogToDocuments;
+
 @end
+
